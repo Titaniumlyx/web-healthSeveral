@@ -1,0 +1,84 @@
+.container{
+  background: #fff;
+  .footTable{
+    padding: 25px 0 10px;
+    background: #f3f3f3;
+    border-top: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e6e6e6;
+    margin-top: 35px;
+    .ww{
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      .someInfo{
+        width: 155px;
+        .phone{
+          height: auto;
+          line-height: 18px;
+          padding: 5px 0;
+          h4{
+            height: 20px;
+            line-height: 20px;
+            color: #666;
+            font-size: 15px;
+          }
+          p{
+            height: 30px;
+            line-height: 30px;
+            font-size: 20px;
+            color: rgb(212,0,60);
+            font-weight: bold;
+          }
+        }
+      }
+      table{
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      .line{
+        width: 0;
+        height: 130px;
+        border-left: solid 1px #e7e7e7;
+        border-right: solid 1px #fff;
+        margin: 0 20px;
+      }
+      .dl{
+        color: #666;
+        .dt{
+          height: 24px;
+          line-height: 24px;
+          font-weight: bold;
+          font-size: 15px;
+        }
+        .dd{
+          overflow: hidden;
+          a{
+            display: block;
+            overflow: hidden;
+            height: 24px;
+            line-height: 24px;
+            color: #666;
+            font-size: 12px;
+          }
+        }
+      }
+      .weixin{
+        text-align: center;
+        color: #666;
+        .title{
+          font-size: 15px;
+        }
+        .img{
+          margin: 10px 0;
+          img{
+            overflow: hidden;
+            vertical-align: top;
+          }
+        }
+        .scan-word{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

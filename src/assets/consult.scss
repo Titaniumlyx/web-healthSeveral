@@ -1,0 +1,131 @@
+.content{
+  margin-top: 100px;
+  .block{
+    width: 1200px;
+    margin: 0 auto;
+    .bread{
+      font-size: 14px;
+      color: #606266;
+      .el-breadcrumb__item {
+        &:hover{
+          color: #FF0027;
+        }
+        float: left;
+        margin-left: 5px;
+        margin-top: 3px;
+      }
+    }
+    .main-content{
+      margin-top: 15px;
+      .main-list{
+        width: 888px;
+        border: 1px solid #d9d9d9;
+        .listBox{
+          .listBoxT{
+            width: 888px;
+            height: 87px;
+            border-bottom: 1px solid #d9d9d9;
+            position: relative;
+            background: #F5F5F5;
+            .listBoxT-up{
+              padding: 10px 15px 12px 20px;
+              a{
+                color: rgb(229, 13, 69);
+                font-size: 18px;
+                font-weight: bold;
+              }
+              span{
+                color: #afafaf;
+                font-size: 12px;
+              }
+            }
+            .lable{
+              padding-left: 20px;
+              .iconfont{
+                color: rgb(229, 13, 69);
+              }
+              .name{
+                display: inline-block;
+                font-size: 13px;
+              }
+            }
+          }
+          .listBoxC{
+            padding: 20px;
+            .txt{
+              display: block;
+              line-height: 24px;
+              text-indent: 20px;
+              color: #454545;
+              a{
+                color: #e50d45;
+                font-size: 12px;
+              }
+            }
+            .img{
+              display: block;
+              width: 627px;
+              margin-top: 20px;
+              overflow: hidden;
+              text-align: center;
+              a img{
+                background: #eee;
+                overflow: hidden;
+                vertical-align: top;
+              }
+            }
+          }
+        }
+      }
+      .main-listR{
+        width: 300px;
+        .rBox{
+          border: 1px solid #e0dede;
+          margin-bottom: 16px;
+          h3{
+            width: 298px;
+            height: 30px;
+            text-indent: 12px;
+            color: rgb(69, 69, 69);
+            font-weight: bolder;
+            line-height: 30px;
+            font-size: 14px;
+            border-bottom: 1px solid rgb(228, 228, 228);
+            background: #F3F3F3;
+          }
+          .rBox-block{
+            padding: 16px 0 0 12px;
+            dl{
+              margin-bottom: 11px;
+              a{
+                color: #333;
+                font-size: 14px;
+              }
+            }
+            .imgBox{
+              margin: 0 0 10px 0;
+              li{
+                float: left;
+                width: 135px;
+                text-align: center;
+                line-height: 20px;
+              }
+              .first{
+                margin-right: 9px;
+                a{
+                  color: #333;
+                  font-size: 12px;
+                  img{
+                    background: #eee;
+                    overflow: hidden;
+                    vertical-align: top;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

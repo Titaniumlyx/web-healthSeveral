@@ -1,0 +1,112 @@
+.register-block{
+  width: 1200px;
+  margin: 0 auto;
+  .zc-header{
+    .logo{
+      margin-left: 50px;
+    }
+    img{
+      width: 58px;
+      height: 54px;
+      overflow: hidden;
+      vertical-align: top;
+    }
+    h1{
+      position: absolute;
+      top: 20px;
+      left: 160px;
+      font-size: 24px;
+      font-weight: 400;
+      padding: 0;
+      line-height: 38px;
+      margin-left: 100px;
+    }
+  }
+
+  .zc-content{
+    border: 1px solid #d7d7d7;
+    padding: 40px;
+    padding-right: 0;
+    .user-zc{
+      width: 630px;
+      border-right: 1px dashed #e5e5e5;
+      color: #555;
+      h1{
+        font-weight: normal;
+        line-height: 38px;
+        font-size: 18px;
+      }
+      .register-box{
+        padding: 20px 0;
+        .one{
+          margin-bottom: 30px;
+          font-size: 14px;
+          input{
+            width: 240px;
+            height: 26px;
+            line-height: 26px;
+            border: 1px solid #d5d5d5;
+            font-size: 14px;
+            padding: 0 5px;
+          }
+        }
+        .two{
+          input{
+            width: 126px;
+            height: 26px;
+            line-height: 26px;
+            border: 1px solid #d5d5d5;
+            font-size: 14px;
+            padding: 0 5px;
+          }
+          img{
+            margin-bottom: -8px;
+          }
+        }
+        .readAccept{
+          font-size: 13px;
+          margin-left: 82px;
+          margin-top: 15px;
+          .btn{
+            margin-top: 10px;
+          }
+          .btnSubmit{
+            width: 100px;
+            height: 36px;
+            background: #DC141B;
+            line-height: 36px;
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            border: 0;
+            border-radius: 3px;
+            cursor: pointer
+          }
+        }
+        .three{
+          font-size: 12px;
+          margin-top: 34px;
+        }
+      }
+    }
+    .zc-login{
+      width: 270px;
+      img{
+        overflow: hidden;
+        vertical-align: top;
+      }
+      a{
+        color: #666;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background: #F8F8F8;
+        display: block;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-right: 15px;
+      }
+    }
+  }
+}
